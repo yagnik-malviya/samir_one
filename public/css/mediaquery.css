@@ -1,0 +1,62 @@
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  .custom-contact-list{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .banner-text {
+    position: absolute;
+    top: 24% !important;
+    left: 30px !important;
+    width: 85% !important;
+}
+.search-custom{
+    width: 100% !important;
+}
+.swiper-slide{
+    text-align: -webkit-center !important;
+}
+.header-text {
+    text-align: center;
+}
+.search-btn-custom-buy{
+    background-color: #9F2927;
+    color: #fff;
+    width: 100% !important;
+}
+
+a.nav-link.active.mx-2 {
+    border: 2px solid transparent !important;
+    background-color: transparent !important;
+    color: #9F2927 !important;
+    border-radius: 0px !important;
+}
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: green;
+    }
+}
+ 
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+}
